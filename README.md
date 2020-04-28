@@ -1,11 +1,11 @@
 # bulletin-board
 bulletin board site
 
-### Note 
+### Notes 
 
 - Date time property
-- Description (Lost Dog, Lost Cat, Piano Lessons)
 - Title (Lost, Lessons )
+- Description (Lost Dog, Lost Cat, Piano Lessons)
 - Length of time (In which post stays up) (Send email to see if they want
 - to extend the time)
 
