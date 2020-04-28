@@ -6,8 +6,7 @@ bulletin board site
 - Date time property
 - Title (Lost, Lessons )
 - Description (Lost Dog, Lost Cat, Piano Lessons)
-- Length of time (In which post stays up) (Send email to see if they want
-- to extend the time)
+- Length of time (In which post stays up) (Send email to see if they want to extend the time)
 
 ### SQL
 ```
