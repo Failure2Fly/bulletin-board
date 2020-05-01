@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
-    <div >
+    <div className="App">
       <Container className="Nav-Container">
         <Row className="Nav-Row">
           <Col xs={3}>2 of 3 (wider)</Col>
