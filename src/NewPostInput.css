@@ -1,0 +1,8 @@
+.inputBoarder{
+    background-color: #E3DFFF;
+    border-style: solid; 
+    border-width: 10px;
+    border-color: #3D3A4B;
+    width: 800px;
+    height: 800px;
+}
