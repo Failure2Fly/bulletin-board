@@ -1,0 +1,15 @@
+.nav-full{
+    background-color: #3D3A4B;
+    border: black solid 1px;
+    height: 100vh;
+}
+.nav-header{
+    border-bottom: black solid 3px;
+    height: 150px;
+}
+.bulletin-lost-cat {
+    background-color: #E3DFFF ;
+    border: black solid 1px;
+    height: 150px;
+    margin: 5px;
+}

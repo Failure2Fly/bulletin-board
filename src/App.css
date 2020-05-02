@@ -1,10 +1,11 @@
 .App {
-  height: 100em;
+
 }
-.Nav-Container {
+/* .Nav-Container {
   display: flex;
   flex-direction: row;
-}
+  height: 100vh;
+} */
 .Nav-Row{
   border: 1px black solid;
 }
