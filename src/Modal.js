@@ -3,20 +3,22 @@ import './Modal.css';
 
 
 
-function Modal() {
-  return (
-    <div className="Container Modal-cont ">
-        <div className="row Modal-row">
 
-            <div className="col Modal">
-                <h1>HELLO</h1>
-            </div>
+  function Modal() {
+    return (
+      <div className="Container Modal-cont">
+          <div className="row Modal-row">
 
-        </div>    
-    </div>
-  );
-}
+              <div className="col Modal">
+                  <h1>HELLO</h1>
+              </div>
 
+          </div>    
+      </div>
+
+    );
+  };
+};
 
 
 
