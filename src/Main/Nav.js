@@ -226,11 +226,17 @@ render(){
                 </button>
                 <CarPool />                
             </div>
-            <div className={this.state.partyHidden}>
+            <div className={this.state.jobPostingHidden}>
                 <button onClick={this.hideModal}>
                     X
                 </button>
-                <Party />                
+                <JobPosting />                
+            </div>
+            <div className={this.state.shiftCoverageHidden}>
+                <button onClick={this.hideModal}>
+                    X
+                </button>
+                <ShiftCoverage />                
             </div>
             <div className={this.state.sellingWantedHidden}>
                 <button onClick={this.hideModal}>
@@ -244,17 +250,11 @@ render(){
                 </button>
                 <Volunteers />                
             </div>
-            <div className={this.state.jobPostingHidden}>
+            <div className={this.state.partyHidden}>
                 <button onClick={this.hideModal}>
                     X
                 </button>
-                <JobPosting />                
-            </div>
-            <div className={this.state.shiftCoverageHidden}>
-                <button onClick={this.hideModal}>
-                    X
-                </button>
-                <ShiftCoverage />                
+                <Party />                
             </div>
             <div className={this.state.lookingForFriendsHidden}>
                 <button onClick={this.hideModal}>
