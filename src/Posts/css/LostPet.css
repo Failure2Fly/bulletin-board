@@ -1,0 +1,12 @@
+.LostPet-On {
+    background-color: blanchedalmond;
+    border: black solid 2px;
+    height: 600px;
+    width: 600px;
+    position: fixed;
+    top: 200px;
+    left: 800px;
+}
+.LostPet-Off {
+    display: none;
+}

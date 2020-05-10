@@ -1,4 +1,4 @@
-.Modal {
+.Volunteers-On {
     background-color: blanchedalmond;
     border: black solid 2px;
     height: 600px;
@@ -7,6 +7,6 @@
     top: 200px;
     left: 800px;
 }
-.Modal-Off {
+.Volunteers-Off {
     display: none;
 }
