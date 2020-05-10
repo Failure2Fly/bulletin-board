@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Bulletin.css';
-import NewPostInput from './NewPostInput';
+import NewPostInput from '../NewPostInput';
 
 
 function Bulletin() {

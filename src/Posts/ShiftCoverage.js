@@ -20,7 +20,7 @@ import './css/ShiftCoverage.css';
   
     render() {
       return (
-            <div className="inputBoarder">
+            <div>
             <form>
               <div className="form-row">
                 <div className="col">

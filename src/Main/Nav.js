@@ -13,6 +13,7 @@ import PlayGames from '../Posts/PlayGames';
 import './css/Nav.css';
 import '../Posts/css/LostPet.css';
 import '../Posts/css/Lessons.css';
+import '../NewPostInput.css';
 
 
 
