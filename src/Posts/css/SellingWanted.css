@@ -1,11 +1,12 @@
 .SellingWanted-On {
-    background-color: blanchedalmond;
+    background-color: #F4D58D;
     border: black solid 2px;
     height: 600px;
     width: 600px;
     position: fixed;
     top: 200px;
     left: 800px;
+    padding: 20px;
 }
 .SellingWanted-Off {
     display: none;

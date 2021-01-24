@@ -112,8 +112,6 @@ class Nav extends Component{
         if(this.state.PlayGames === true){
         this.setState({playGamesHidden: "PlayGames-Off", PlayGames: false});
         }
-        console.log(this.state.lostPet)
-        console.log(this.state.lessons)
     }
     
     
@@ -125,50 +123,44 @@ render(){
             <div className="col nav-full col-lg-2 ">
                 <div className="row nav-header">
                     <div className="col nav-header">
- 
+                        <p>Bulletin Board</p>
                     </div>
                 </div>
                 <div>
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-5 bulletin-lost-cat"> 
+                        <div className="col-12 col-md-6 bulletin-lost-cat"> 
                             <button onClick={()=>this.showModal('LostPet')}>                      
                                 <h5>Lost Pet</h5>
                             </button>   
                         </div>
-                        <div className="col-12 col-md-1">
-                        
-                        </div>
-                        <div className="col-12 col-md-5 bulletin-lost-cat">
+
+                        <div className="col-12 col-md-6 bulletin-lost-cat">
                         <button onClick={()=>this.showModal('Lessons')}>                      
                                 <h5>Lessons</h5>
                             </button> 
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-5 bulletin-lost-cat"> 
+                        <div className="col-12 col-md-6 bulletin-lost-cat"> 
                             <button onClick={()=>this.showModal('CarPool')}>                      
                                 <h5>Car Pool</h5>
                             </button>   
                         </div>
-                        <div className="col-12 col-md-1">
-                        
-                        </div>
-                        <div className="col-12 col-md-5 bulletin-lost-cat">
+
+                        <div className="col-12 col-md-6 bulletin-lost-cat">
                         <button onClick={()=>this.showModal('JobPosting')}>                      
                                 <h5>Job Posting</h5>
                             </button> 
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-5 bulletin-lost-cat"> 
+                        <div className="col-12 col-md-6 bulletin-lost-cat"> 
                             <button onClick={()=>this.showModal('ShiftCoverage')}>                      
                                 <h5>Shift Coverage</h5>
                             </button>   
                         </div>
-                        <div className="col-12 col-md-1">
-                        
-                        </div>
-                        <div className="col-12 col-md-5 bulletin-lost-cat">
+ 
+                        <div className="col-12 col-md-6 bulletin-lost-cat">
                         <button onClick={()=>this.showModal('SellingWanted')}>                      
                                 <h5>Selling/
                                     Wanted</h5>
@@ -176,32 +168,28 @@ render(){
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-5 bulletin-lost-cat"> 
+                        <div className="col-12 col-md-6 bulletin-lost-cat"> 
                             <button onClick={()=>this.showModal('Volunteers')}>                      
                                 <h5>Volunteers</h5>
                             </button>   
                         </div>
-                        <div className="col-12 col-md-1">
-                        
-                        </div>
-                        <div className="col-12 col-md-5 bulletin-lost-cat">
+ 
+                        <div className="col-12 col-md-6 bulletin-lost-cat">
                         <button onClick={()=>this.showModal('Party')}>                      
                                 <h5>Party</h5>
                             </button> 
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-5 bulletin-lost-cat"> 
+                        <div className="col-12 col-md-6 bulletin-lost-cat"> 
                             <button onClick={()=>this.showModal('LookingForFriends')}>                      
                                 <h5>Looking For Friends</h5>
                             </button>   
                         </div>
-                        <div className="col-12 col-md-1">
-                        
-                        </div>
-                        <div className="col-12 col-md-5 bulletin-lost-cat">
+
+                        <div className="col-12 col-md-6 bulletin-lost-cat">
                         <button onClick={()=>this.showModal('PlayGames')}>                      
-                                <h5>Play games</h5>
+                                <h5>Play Games</h5>
                             </button> 
                         </div>
                     </div>
@@ -226,11 +214,17 @@ render(){
                 </button>
                 <CarPool />                
             </div>
-            <div className={this.state.partyHidden}>
+            <div className={this.state.jobPostingHidden}>
                 <button onClick={this.hideModal}>
                     X
                 </button>
-                <Party />                
+                <JobPosting />                
+            </div>
+            <div className={this.state.shiftCoverageHidden}>
+                <button onClick={this.hideModal}>
+                    X
+                </button>
+                <ShiftCoverage />                
             </div>
             <div className={this.state.sellingWantedHidden}>
                 <button onClick={this.hideModal}>
@@ -244,17 +238,11 @@ render(){
                 </button>
                 <Volunteers />                
             </div>
-            <div className={this.state.jobPostingHidden}>
+            <div className={this.state.partyHidden}>
                 <button onClick={this.hideModal}>
                     X
                 </button>
-                <JobPosting />                
-            </div>
-            <div className={this.state.shiftCoverageHidden}>
-                <button onClick={this.hideModal}>
-                    X
-                </button>
-                <ShiftCoverage />                
+                <Party />                
             </div>
             <div className={this.state.lookingForFriendsHidden}>
                 <button onClick={this.hideModal}>

@@ -1,16 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Sigmar+One&display=swap');
+
 .nav-full{
-    background-color: #3D3A4B;
+    background-color: #001427;
     border: black solid 1px;
     height: 100vh;
 }
+
 .nav-header{
     border-bottom: black solid 3px;
     height: 150px;
 }
+
+.nav-header p{
+    font-family: 'Bungee', cursive;
+    color:#F4D58D;
+    font-size: 32px;
+    padding: 10px;
+}
+
 .bulletin-lost-cat {
-    background-color: #E3DFFF ;
-    border: black solid 1px;
+    background-color: #708D81;
+    /* border: #001427 solid 5px; */
     height: 150px;
-    margin: 5px;
+}
+
+.bulletin-lost-cat button{
+    background-color: #F4D58D;
+    border-radius: 4px;
 }
 
